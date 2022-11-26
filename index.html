@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Farmer's Registration form</title>
+</head>
+<body>
+        </div class="container">
+             <form action="php/php_form.php" method="POST">
+                <div><h1>Farmer's Registration Form</h1></div>
+                <hr>
+                    <div class="box-details">
+                        <div class="box-1">
+                            <label for="firstname"><span>*</span>First Name</label><br>
+                            <input type="text" id="firstname" name="firstname" placeholder="First Name" required><br>
+                        </div>
+                        <div  class="box-2">
+                            <label for="middlename"><span>*</span>Middle Name</label><br>
+                            <input type="text" id="middlename" name="middlename" placeholder="Middle Name" required><br>
+                        </div>
+                        <div class="box-3">
+                            <label for="surname"><span>*</span>SurName</label><br>
+                            <input type="text" id="surname" name="surname" placeholder="SurName" required><br>
+                        </div>
+                        <div class="box-4">
+                            <label for="gender"><span>*</span>Gender</label><br>
+                            <input type="radio" id="male" name="gender" value="Male">
+                            <label for="male">Male</label><br>
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label for="female">Female</label><br>
+                        </div>
+                        <div class="box-5">
+                            <label for="birthdate"><span>*</span>Date of Birth</label><br>
+                            <input type="date" id="birthdate" name="birthdate" required><br>
+                        </div>
+                        <div class="box-6">
+                           <label for="address"><span>*</span>Physical Address</label><br>
+                            <input type="text" id="address" name="address" placeholder="Physical Address" required><br>
+                        </div>
+                        <div class="box-7">
+                           <label for="phone"><span>*</span>Phone Number</label><br>
+                            <input type="number" id="phone" name="phone" placeholder="Phone NUmber" required><br>
+                        </div>
+                        <div class="box-8">
+                            <label for="region"><span>*</span>Region</label><br>
+                            <input type="text" id="region" name="region" placeholder="Region" required><br>
+                        </div>
+                         <div class="box-9">
+                            <label for="municipal"><span>*</span>Municipal</label><br>
+                            <input type="text" id="municipal" name="municipal" placeholder="Municipal" required><br>   
+                        </div>
+                        <div class="box-10">
+                            <label for="village">Village(optinal)</label><br>
+                            <input type="text" id="village" name="village" placeholder="Village"><br>
+                        </div>
+                        <div class="box-11">
+                            <label for="ward">Ward(optional)</label><br>
+                            <input type="ward" id="ward" name="ward" placeholder="Ward"><br>
+                        </div>
+                        <div class="box-12">
+                            <label for="farmsize"><span>*</span>Farm Size<span>(Acres)</span></label><br>
+                             <input type="number" id="farmsize" name="farmsize" placeholder="Farm Size" required><br> 
+                        </div>
+                        <div class="box-13">
+                            <label for="ownership"><span>*</span>Ownership</label><br>
+                            <select id="ownership" name="ownership" required>
+                            <option value="the owner">The owner</option>
+                            <option value="hired">Hired</option>
+                            </select><br>
+                        </div>
+                        <div class="box-14">
+                          <label for="gcrops"><span>*</span>Group of crops</label><br>
+                         <input type="text" id="gcrops" name="gcrops" placeholder="Group of Crops" required><br>
+                        </div>
+                        <div class="box-15">
+                          <label for="subcrops">Subgroup of crops</label><br>
+                         <input type="text" id="subcrops" name="subcrops" placeholder="Subgroup of Crops"><br>
+                        </div>
+                        <div class="box-16">
+                            <input type="submit" name="submit" value="Submit" class="registerbtn">
+                            <br>
+                        </div>
+                    </div>
+              </form>
+    </div>
+</body>
+</html>
