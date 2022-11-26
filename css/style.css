@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI',Tahoma,Geneva,Verdan,sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(136deg,#05073b,#dc0606cb);
+    padding: 10px;
+}
+.box-details{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+
+}
+ h1{
+    color: green;
+}
+form{
+    /*background-color: rgb(149, 165, 166);*/
+    background-image: url("../img/farm6.jpeg");
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    box-shadow: 8px 8px 5px lightcoral;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6,
+.box-7, .box-8, .box-9, .box-10, .box-11, .box-12,
+.box-13, .box14, .box-14, .box-15, .box-16{
+    flex: 1;
+    padding: 40px 10px;
+    /*padding-bottom: 20px;*/
+}
+.registerbtn{
+    background-color: #04AA7D;
+    color: white;
+    font-size: 14px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
