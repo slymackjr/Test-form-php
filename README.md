@@ -211,4 +211,3 @@ I would like to thank these wonderful tools that enabled me to make it all happe
 [JavaScript-shield]: https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 [JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
-
