@@ -171,11 +171,8 @@ I would like to thank these wonderful tools that enabled me to make it all happe
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Bootstrap](https://getbootstrap.com/)
-* [SASS](https://sass-lang.com/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
